@@ -24,3 +24,27 @@ section {
   margin: 1rem;
   border-radius: 8px;
 }
+
+.project-card {
+  margin-bottom: 3rem;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.media-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.media-scroll img,
+.media-scroll video {
+  flex: 0 0 auto;
+  max-height: 200px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
